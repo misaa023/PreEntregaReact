@@ -1,3 +1,3 @@
 export const CardWidget = () => {
-    return <span className="text-3xl ml-10">🛒</span>;
+    return <span className="text-xl ml-10">🛒 3</span>;
 };

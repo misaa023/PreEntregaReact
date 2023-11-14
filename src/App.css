@@ -1,0 +1,19 @@
+.txt-bebida {
+    font-size: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.img-bebida {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card-bebida {
+    background-color: rgb(7, 8, 90);
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
