@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export const Item = ({ item }) => {
     return (
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-8">
+        <div className=" img-card max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-8">
             <a href="#">
                 <img
                     className="rounded-t-lg img-card w-80 max-h-80 "
