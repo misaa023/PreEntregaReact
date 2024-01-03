@@ -12,7 +12,18 @@
 }
 
 .card-bebida {
-    background-color: #1e293b;
+    background: #000428; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #004e92,
+        #000428
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #004e92,
+        #000428
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 350px;
     margin: 0 auto;
     margin-top: 40px;
@@ -26,4 +37,38 @@
 .img-card img {
     height: 333px;
     object-fit: cover;
+}
+
+.logo-img {
+    height: 120px;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.nav-bar {
+    background: #005c97; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #363795,
+        #005c97
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #363795,
+        #005c97
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-bg {
+    background: #000428; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #004e92,
+        #000428
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #004e92,
+        #000428
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
