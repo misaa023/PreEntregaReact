@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 
 // import { products } from '../data/products';
 import { ItemList } from './ItemList';
@@ -15,6 +15,7 @@ import {
 
 export const ItemListContainer = () => {
     const [items, setItems] = useState([]);
+
     const { id } = useParams();
 
     //(#) Este caso es para mostrar todos los items

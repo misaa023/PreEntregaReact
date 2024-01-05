@@ -1,3 +1,8 @@
+import { Link } from 'react-router-dom';
 export const CardWidget = () => {
-    return <span className="text-xl ml-10">🛒 3</span>;
+    return (
+        <Link to="/cart">
+            <span className="text-xl ml-10">🛒</span>
+        </Link>
+    );
 };
