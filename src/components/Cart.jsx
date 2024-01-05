@@ -15,6 +15,9 @@ export const Cart = () => {
             <h1 className="mt-6 text-center font-bold text-xl">
                 Carrito de compras
             </h1>
+            <div className="total">
+                <h3>Total a pagar : ${total}</h3>
+            </div>
             {items?.map((item) => (
                 <div className="vista-cart" key={item.id}>
                     <h3>{item.description}</h3>
@@ -28,6 +31,7 @@ export const Cart = () => {
                     </div>
                 </div>
             ))}
+
             <div className="btn-vaciar">
                 <button onClick={clear}>Vaciar carrito</button>
             </div>
