@@ -94,12 +94,12 @@
     background-color: white;
 }
 
-.img-cart {
+/* .img-cart {
     width: 130px;
     border-radius: 10%;
     margin: 0 auto;
     height: 170px;
-}
+} */
 
 .vista-cart {
     text-align: center;
@@ -121,10 +121,7 @@
 }
 
 .btn-eliminar {
-    margin-top: 10px;
-    color: red;
-    font-weight: 500;
-    background-color: white;
+    cursor: pointer;
 }
 
 .btn-mayor {
@@ -155,8 +152,77 @@
     color: white;
     width: max-content;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.contenido {
+    margin: 0 auto;
+}
+
+th {
+    padding: 20px;
+}
+
+.btn-comprar {
+    text-align: center;
+    background-color: #009231;
+    width: 120px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 70px;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.formu {
+    margin: 0 auto;
+    gap: 20px;
+    padding: 10px;
+    background: #009726; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #363795,
+        #005c97
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #363795,
+        #005c97
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 380px;
+}
+
+.formu label {
+    color: white;
+}
+
+.formu input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.cart-vacio {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+
+.text-form {
+    font-size: 18px;
     font-weight: 500;
 }
